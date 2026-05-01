@@ -1,0 +1,59 @@
+.container {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+    background: rgba(255,255,225, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    color: white;
+}
+.r {
+    display: flex;
+    justify-content: space-around;
+
+}
+input[type="text"]
+,input[type="password"] {
+    padding: 15px;
+    border-radius: 35px;
+    padding-right:100px;
+    margin-bottom: 5px;
+    border: 0.2px solid black;
+    background: rgba(255,255,225, 0.2);
+    backdrop-filter: blur(2px);
+    box-sizing: border-box; 
+}
+input[type="submit"]{
+    padding: 15px 120px;
+    border: 0.2px solid black;
+    border-radius: 35px;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
+body {
+    font-family: "Helvetica";
+    background-image: url(image/atahdomisili.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+input[type="text"] {
+    background-image: url(image/logoo1.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;/* Ganti dengan nama file ikonmu */
+}
+input[type="password"] {
+    background-image: url(image/borgol.png); 
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;/* Ganti dengan nama file ikonmu */
+}
+
